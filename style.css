@@ -1,13 +1,25 @@
+body {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(67, 206, 162, 1) 0%,
+    rgb(0, 106, 177) 100%
+  );
+}
 @font-face {
   font-family: "FirstFont";
   src: url(Fonts/Montserrat-Bold.ttf);
 }
 * {
   font-family: "FirstFont";
+  text-align: right;
+  color: azure;
+  font-size: 35px;
 }
 
 p {
-  color: rgb(2, 55, 101);
-  font-size: 100px;
-  font-family: "FirstFont";
+  color: rgb(219, 219, 219);
+  font-size: 50px;
+  font-family: Helvetica;
+  text-align: right;
 }
