@@ -1,17 +1,32 @@
-@font-face {
-  font-family: "FirstFont";
-  src: url(Fonts/Montserrat-Bold.ttf);
+body {
+  background: linear-gradient(
+    90deg,
+    rgba(67, 206, 162, 1) 0%,
+    rgba(0, 212, 255, 1) 100%
+  );
 }
 * {
-  font-family: "FirstFont";
+  margin: 30px;
+  padding: 0px;
+}
+@font-face {
+  font-family: "Title";
+  src: url(Fonts/Montserrat-Bold.ttf);
+}
+@font-face {
+  font-family: "LightFont";
+  src: url(Fonts/Montserrat-Thin.ttf);
+}
+h1 {
+  font-family: "Title";
   text-align: right;
-  color: azure;
-  font-size: 35px;
+  color: whitesmoke;
+  font-size: 100px;
 }
 
-p {
-  color: rgb(219, 219, 219);
-  font-size: 50px;
-  font-family: Helvetica;
+H2 {
+  font-family: "LightFont";
+  color: whitesmoke;
+  font-size: 60px;
   text-align: right;
 }
