@@ -5,10 +5,7 @@ body {
     rgba(0, 212, 255, 1) 100%
   );
 }
-* {
-  margin: 30px;
-  padding: 0px;
-}
+
 @font-face {
   font-family: "Title";
   src: url(Fonts/Montserrat-Bold.ttf);
@@ -29,4 +26,13 @@ H2 {
   color: whitesmoke;
   font-size: 60px;
   text-align: right;
+}
+
+.img1 {
+  text-align: left;
+  display: inline-block;
+}
+.start {
+  text-align: right;
+  display: inline-block;
 }
