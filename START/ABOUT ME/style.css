@@ -1,0 +1,29 @@
+body {
+  background: linear-gradient(
+    90deg,
+    rgba(67, 206, 162, 1) 0%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+@font-face {
+  font-family: "Title";
+  src: url(Fonts/Montserrat-Bold.ttf);
+}
+@font-face {
+  font-family: "LightFont";
+  src: url(Fonts/Montserrat-Thin.ttf);
+}
+h1 {
+  font-family: "Title";
+  text-align: right;
+  color: whitesmoke;
+  font-size: 15px;
+}
+
+p {
+  font-family: "LightFont";
+  text-align: right;
+  color: whitesmoke;
+  font-size: 20px;
+  text-align: justify;
+}

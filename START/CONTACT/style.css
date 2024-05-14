@@ -1,0 +1,21 @@
+body {
+  background: linear-gradient(
+    90deg,
+    rgba(67, 206, 162, 1) 0%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+
+@font-face {
+  font-family: "Title";
+  src: url(Fonts/Montserrat-Bold.ttf);
+}
+@font-face {
+  font-family: "LightFont";
+  src: url(Fonts/Montserrat-Thin.ttf);
+}
+H3 {
+  font-family: "LightFont";
+  font-size: medium;
+  color: aliceblue;
+}
